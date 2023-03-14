@@ -36,5 +36,34 @@ public class Query01 {
     st.close();
     veri.close();
 
+
+      /*  JDBS: Java DataBase Conectivity
+
+        Database'den data cekmeye yariyor
+
+        Classs.forName(); Driver tanimlamak icin kullanilir
+
+        JDBC; Driver manager vasitasi ile bizi database yonlendiriyor
+
+        Driver: Bu arayuz veritabani sunucusu ile olan iletisimi idare eder
+
+        Connection Bu arayuz bir veritabani ile iletisim kurmak icin tum ...
+
+        ResultSet: JDBS kullanrak veri cekme islemi sonrasinda veri listelemek icin ResultSet sinifi kullanilir.
+
+        Database e full erisim vermek risklidir genelde sinirli yetkiler verilir
+
+        Genelde select komutu ile calisilir
+
+        Veriler uzerinde dolasmak ici genelde, next,first, previous absolute gibi methodlar kullanilir
+
+        Pom xml dosyasi ne ise yarar: Projenin kalbidir
+        bizim icin onemli olan yer properties ve project arasindaki kod blogudur. Oraya komutlarimizi tanimliyoruz. or fr bilmiyorsak
+        oraya tanimladigimizdda artik konusabiliriz
+
+*Ilk satira tanimlanacak lan sey driver'dri
+
+        executeQuery() ile database e ileti yolluyoruz daha sonra biz bu veriyi while dongu kullanrak datalara ulasip onlari yazdirabiliyoruz */
+
     }
 }
